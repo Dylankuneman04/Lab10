@@ -35,7 +35,7 @@ struct Trie *deallocateTrie(struct Trie *pTrie)
         }
         free(pTrie);
     }
-    return pTrie;
+    return NULL;
 }
 
 // Initializes a trie structure
